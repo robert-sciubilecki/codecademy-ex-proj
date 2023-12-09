@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.app {
+  background-color: #dedede;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem; }
+  .app h1 {
+    font-size: 4rem; }
+  .app-random-phrase {
+    font-style: italic;
+    font-size: 2rem; }
+  .app-author {
+    font-size: 1.4rem; }
